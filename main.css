@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  box-shadow: 15px 15px 5px #888888;
+  background-color: #ff9393;
+}
+
+.numbers, .operators, .equal, .div-c, .decimal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 24.2%;
+  margin: 0px;
+  border: 1px solid #ff9393;
+  background: red;
+  font-family: courier;
+}
+
+.operators {
+  background-color: #fc4343;
+}
+
+.div-total {
+  display: flex;
+  justify-content: flex-end;
+  width: 74%;
+  /*margin-right: 10px;*/
+  border: 1px solid #ff9393;
+  background: red;
+  align-items: center;
+  font-size: 28px;
+  font-family: courier;
+}
+
+.operators:hover{
+  color: #ffd2d2;
+}
+
+.equal:hover{
+  background-color: #fc4343;
+}
+
+.div-c:hover{
+  background-color: #fc4343;
+}
